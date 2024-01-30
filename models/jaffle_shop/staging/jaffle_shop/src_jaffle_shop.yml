@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: DBT
+    schema: raw
+    table:
+      - name: js_customers
+      - name: js_order
+      - name: js_payments
